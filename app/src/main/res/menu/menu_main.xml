@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/searchView"
+            android:title="Search"
+            android:icon="@drawable/search"
+            app:showAsAction="ifRoom"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+            >
+
+
+    </item>
+
+    <item
+            android:id="@+id/afegirArticleBtn"
+            android:title="Afegir"
+            android:icon="@drawable/add_button"
+            app:showAsAction="ifRoom"
+            >
+
+    </item>
+
+    <item
+            android:id="@+id/obrirIntervalMoviments"
+            android:title="Moviments"
+            android:icon="@drawable/calendar"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/obrirWeather"
+            android:title="Weather"
+            android:icon="@drawable/weather"
+            app:showAsAction="always"/>
+
+</menu>
